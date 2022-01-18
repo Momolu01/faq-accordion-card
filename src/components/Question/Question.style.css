@@ -1,0 +1,35 @@
+.questionLine {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  padding: 10px 0;
+}
+
+.questionLine :hover {
+  color: hsl(14, 88%, 65%);
+}
+
+.questionLine .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.questionLine img {
+  height: 7px;
+  width: auto;
+}
+
+.open {
+  transform: rotate(180deg);
+}
+
+.questionLine img,
+.questionLine p {
+  margin: 5px;
+}
+
+.questionLine .text {
+  color: hsl(240, 6%, 50%);
+}
